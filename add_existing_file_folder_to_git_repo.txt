@@ -1,0 +1,15 @@
+1.Create a new repository on Github.Without initializing readme,license and gitignore files.
+2.Open terminal and navigate to your project directory.
+3. Initialize the above project directory as a Git repository
+	git init
+4.Add the files in your local directory to the staging area
+	git add .
+5.Commit the files that you have staged in your local repository
+	git commit -m "comment to determine what changes have been incorporated"
+6.In terminal, add the  URL for the remote repository where your local repository will be pushed
+	git remote add origin url_of_remote_repo
+	#sets the new remote
+	git remote -v
+	#verifies the new remote url
+7.Push the changes in the local repo i.e the project directory to GitHub
+	git push origin master
